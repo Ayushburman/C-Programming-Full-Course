@@ -470,6 +470,6 @@ Embedded C projects
 -----------------------------------------------------------------------------------------------------
 some errors occured 
 
-
+unable to resolve - [1/5/2026, 7:18:04 PM] Unable to resolve configuration with compilerPath: "C:/MinGW/bin/gcc.exe"
 
 
