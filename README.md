@@ -474,5 +474,8 @@ unable to resolve - [1/5/2026, 7:18:04 PM] Unable to resolve configuration with 
 
 Try install MSYS2
 
+GCC configuration
+
+
 
 
