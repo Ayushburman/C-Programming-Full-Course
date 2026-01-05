@@ -96,13 +96,13 @@ intall C extension in VS CODE
 # C Syllabus 
 
 ## 1️⃣ Foundations (Must Start Here)
-1. What is C?
+> 1. What is C?
 
-History of C
+>> History of C
 
-Why C is called a mother language
+>> Why C is called a mother language
 
-Where C is used (OS, embedded systems, compilers)
+>> Where C is used (OS, embedded systems, compilers)
 
 2. C Program Structure
 
