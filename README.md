@@ -93,9 +93,9 @@ Notepad++
 
 intall C extension in VS CODE 
 
-C Syllabus 
+# C Syllabus 
 
-1️⃣ Foundations (Must Start Here)
+## 1️⃣ Foundations (Must Start Here)
 1. What is C?
 
 History of C
@@ -126,7 +126,7 @@ Variables
 
 Data types
 
-2️⃣ Data Types & Variables
+## 2️⃣ Data Types & Variables
 4. Data Types
 
 int
@@ -155,7 +155,7 @@ Scope (local, global)
 
 Lifetime
 
-3️⃣ Operators & Expressions
+## 3️⃣ Operators & Expressions
 7. Operators
 
 Arithmetic (+ - * / %)
@@ -182,7 +182,7 @@ Associativity
 
 Type conversion (implicit & explicit)
 
-4️⃣ Control Flow (Decision Making)
+## 4️⃣ Control Flow (Decision Making)
 9. Conditional Statements
 
 if
@@ -195,7 +195,7 @@ Nested if
 
 switch-case
 
-5️⃣ Loops (Iteration)
+## 5️⃣ Loops (Iteration)
 10. Looping Statements
 
 for
@@ -212,7 +212,7 @@ continue
 
 goto (use carefully)
 
-6️⃣ Functions (Core Concept)
+## 6️⃣ Functions (Core Concept)
 12. Functions
 
 Function declaration
@@ -239,7 +239,7 @@ Recursive functions
 
 Stack behavior
 
-7️⃣ Arrays & Strings
+## 7️⃣ Arrays & Strings
 16. Arrays
 
 1D arrays
@@ -262,7 +262,7 @@ strcmp()
 
 strcat()
 
-8️⃣ Pointers (Most Important in C)
+## 8️⃣ Pointers (Most Important in C)
 18. Basics of Pointers
 
 What is a pointer?
@@ -291,7 +291,7 @@ Structures
 
 Pointer to pointer
 
-9️⃣ User-Defined Data Types
+## 9️⃣ User-Defined Data Types
 22. Structures (struct)
 
 Defining structures
@@ -314,7 +314,7 @@ Creating custom type names
 
 Named integer constants
 
-🔟 Memory Management
+## 🔟 Memory Management
 26. Storage Classes
 
 auto
@@ -335,7 +335,7 @@ realloc()
 
 free()
 
-1️⃣1️⃣ File Handling
+## 1️⃣1️⃣ File Handling
 28. File Operations
 
 File pointers (FILE *)
@@ -360,7 +360,7 @@ Closing:
 
 fclose()
 
-1️⃣2️⃣ Preprocessor & Macros
+## 1️⃣2️⃣ Preprocessor & Macros
 29. Preprocessor Directives
 
 #include
@@ -381,7 +381,7 @@ Function-like macros
 
 Constants via macros
 
-1️⃣3️⃣ Error Handling & Debugging
+## 1️⃣3️⃣ Error Handling & Debugging
 31. Errors in C
 
 Syntax errors
@@ -398,7 +398,7 @@ Using debugger (gdb basics)
 
 Common mistakes
 
-1️⃣4️⃣ Advanced C Concepts
+## 1️⃣4️⃣ Advanced C Concepts
 33. Command Line Arguments
 
 argc
@@ -418,7 +418,7 @@ const
 volatile
 
 36. Inline Functions
-1️⃣5️⃣ System-Level & Practical Topics
+## 1️⃣5️⃣ System-Level & Practical Topics
 37. Header Files
 
 Creating custom header files
@@ -440,7 +440,7 @@ Formatting
 
 Best practices
 
-1️⃣6️⃣ Practice & Projects (VERY IMPORTANT)
+## 1️⃣6️⃣ Practice & Projects (VERY IMPORTANT)
 Beginner Projects
 
 Calculator
@@ -475,6 +475,7 @@ unable to resolve - [1/5/2026, 7:18:04 PM] Unable to resolve configuration with 
 Try install MSYS2
 
 GCC configuration
+
 
 
 
