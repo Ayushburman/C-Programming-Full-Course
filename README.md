@@ -486,4 +486,6 @@ c
 The mother language 
 
 
+c prototype
+
 
