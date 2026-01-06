@@ -488,4 +488,5 @@ The mother language
 
 c prototype
 
+gcc install
 
