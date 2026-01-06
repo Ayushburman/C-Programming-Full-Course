@@ -490,3 +490,5 @@ c prototype
 
 gcc install
 
+compiler fir c
+
