@@ -281,6 +281,7 @@ Pointer & arrays relation
 
 Arrays
 
+
 Strings
 
 Functions
