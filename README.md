@@ -116,6 +116,7 @@ Compilation process (source → object → executable)
 
 3. Basic Syntax
 
+
 Keywords
 
 Identifiers
