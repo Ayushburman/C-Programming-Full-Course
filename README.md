@@ -5,7 +5,7 @@
  - Computers were HUGE / EXPENSIVE / PROGRAMMED in Assembly language
  - we wanted SPEED / READABILTIY / PORTABILITY
  - BELL LABS was buulding new system called UNIX at that time but it was SLOW / HEAVY & HARD / PORTABILITY ISSUES
-# So we needed language that talks to hardware but still thinks like HUMANS
+# So we needed language that talks to hardware but still thinks likenHUMANS
 
 
 # EVOLUTION of C
