@@ -610,4 +610,13 @@ C forces you to think about memory size, unlike Python.
 
 
 
+2️⃣ Operators (How data is processed)
+Operators are tools to manipulate data:
+Math (+ - * /)
+Logic (&& ||)
+Comparison (< > ==)
+Bitwise (used in hardware & OS)
+C gives you bit-level control, which is powerful.
+
+
 
