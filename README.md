@@ -619,4 +619,15 @@ Bitwise (used in hardware & OS)
 C gives you bit-level control, which is powerful.
 
 
+3️⃣ Control Flow (Decision making)
+This is logic.
+Example:
+Copy code
+C
+if (marks >= 40)
+    printf("Pass");
+else
+    printf("Fail");
+Without control flow → programs would run line by line blindl
+
 
