@@ -585,3 +585,5 @@ Compilers, interpreters
 Device drivers
 C doesn’t “help you too much” like Python or Java — you must think carefully.
 That’s why learning C builds strong programming logic.
+
+
