@@ -596,6 +596,17 @@ C doesn’t “help you too much” like Python or Java — you must think caref
 That’s why learning C builds strong programming logic.
 
 
+Core Building Blocks (Everything depends on these)
+1️⃣ Variables & Data Types
+They tell:
+What kind of data you store
+How much memory is needed
+Example:
+Copy code
+C
+int age = 20;      // 4 bytes
+char grade = 'A'; // 1 byte
+C forces you to think about memory size, unlike Python.
 
 
 
