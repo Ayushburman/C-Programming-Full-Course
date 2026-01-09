@@ -570,3 +570,18 @@ _________________________________________
              \    -    /
               \'_____'/
                _______
+
+
+
+What is C Programming (in simple words)
+C is a low-level, procedural programming language that lets you:
+Talk very close to the hardware
+Control memory manually
+Write fast, efficient programs
+That’s why C is used for:
+Operating systems (Linux, Windows core parts)
+Embedded systems (microcontrollers)
+Compilers, interpreters
+Device drivers
+C doesn’t “help you too much” like Python or Java — you must think carefully.
+That’s why learning C builds strong programming logic.
