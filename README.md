@@ -583,7 +583,20 @@ Operating systems (Linux, Windows core parts)
 Embedded systems (microcontrollers)
 Compilers, interpreters
 Device drivers
+
+
+
+You write source code (.c)
+Preprocessor handles #include, #define
+Compiler converts code → machine instructions
+Linker joins libraries
+Executable runs on hardware
+➡️ This is why C is fast and close to the system
 C doesn’t “help you too much” like Python or Java — you must think carefully.
 That’s why learning C builds strong programming logic.
+
+
+
+
 
 
