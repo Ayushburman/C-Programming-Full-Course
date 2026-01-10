@@ -693,4 +693,19 @@ If you understand pointers → C becomes easy
 
 
 
+🔹 Memory Management (Manual control)
+C gives you raw power:
+Copy code
+C
+malloc()
+calloc()
+free()
+You decide:
+When memory is created
+When it is destroyed
+Mistake = crash
+Correct use = extreme efficiency
+This is why system programmers use C.
+
+
 
