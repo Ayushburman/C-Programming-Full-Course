@@ -644,6 +644,37 @@ else
 Without control flow → programs would run line by line blindl
 
 
+Functions (Program organization)
+A function is a small machine inside your program.
+Why needed?
+Avoid repetition
+Improve readability
+Divide big problems into small ones
+Copy code
+C
+int add(int a, int b) {
+    return a + b;
+}
+In C, you must manage data flow manually → great for logic building.
+
+
+
+🔹 Arrays & Strings (Bulk data)
+Arrays
+Store multiple values contiguously in memory.
+Copy code
+C
+int marks[5] = {10,20,30,40,50};
+C arrays:
+Have fixed size
+No bounds checking (dangerous but fast)
+Strings
+Strings are just char arrays ending with '\0'.
+Copy code
+C
+char name[] = "Ayush";
+➡️ This teaches how text is actually stored in memory
+
 
 
 
