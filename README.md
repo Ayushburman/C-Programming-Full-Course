@@ -709,3 +709,14 @@ This is why system programmers use C.
 
 
 
+🔹 File Handling (Persistent data)
+C can:
+Read files
+Write files
+Modify stored data
+Used in:
+Logs
+Databases
+Config files
+
+
