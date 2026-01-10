@@ -675,7 +675,21 @@ C
 char name[] = "Ayush";
 ➡️ This teaches how text is actually stored in memory
 
-
+🔹 Pointers (Heart of C ❤️)
+This is what separates C programmers from others.
+A pointer:
+Stores memory address
+Lets you directly access RAM
+Copy code
+C
+int x = 10;
+int *p = &x;
+Why pointers matter:
+Dynamic memory
+Efficient arrays
+Functions modifying data
+OS & drivers
+If you understand pointers → C becomes easy
 
 
 
