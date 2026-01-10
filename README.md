@@ -623,11 +623,29 @@ C gives you bit-level control, which is powerful.
 This is logic.
 Example:
 Copy code
+
+
+
+
+4️⃣ Loops (Automation)
+Loops repeat tasks.
+Copy code
 C
+for(int i = 1; i <= 10; i++)
+    printf("%d\n", i);
+Loops are used everywhere:
+Reading data
+Processing arrays
+Algorithms
 if (marks >= 40)
     printf("Pass");
 else
     printf("Fail");
 Without control flow → programs would run line by line blindl
+
+
+
+
+
 
 
