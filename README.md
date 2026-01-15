@@ -1157,3 +1157,74 @@ int main()
 
     return 0;
 }
+----------------Operators----------------
+#include <stdio.h>
+
+int main()
+{
+    int a = 10, b = 3;
+
+    /* -------- ARITHMETIC OPERATORS -------- */
+    printf("Arithmetic Operators:\n");
+    printf("a + b = %d\n", a + b);
+    printf("a - b = %d\n", a - b);
+    printf("a * b = %d\n", a * b);
+    printf("a / b = %d\n", a / b);
+    printf("a %% b = %d\n\n", a % b);
+
+    /* -------- RELATIONAL OPERATORS -------- */
+    printf("Relational Operators:\n");
+    printf("a > b  = %d\n", a > b);
+    printf("a < b  = %d\n", a < b);
+    printf("a >= b = %d\n", a >= b);
+    printf("a <= b = %d\n", a <= b);
+    printf("a == b = %d\n", a == b);
+    printf("a != b = %d\n\n", a != b);
+
+    /* -------- LOGICAL OPERATORS -------- */
+    printf("Logical Operators:\n");
+    printf("(a > 5 && b < 5) = %d\n", (a > 5 && b < 5));
+    printf("(a > 5 || b > 5) = %d\n", (a > 5 || b > 5));
+    printf("!(a > b) = %d\n\n", !(a > b));
+
+    /* -------- ASSIGNMENT OPERATORS -------- */
+    printf("Assignment Operators:\n");
+    int x = 5;
+    x += 2;
+    printf("x += 2 -> %d\n", x);
+    x -= 1;
+    printf("x -= 1 -> %d\n\n", x);
+
+    /* -------- INCREMENT / DECREMENT -------- */
+    printf("Increment / Decrement:\n");
+    int y = 10;
+    printf("y++ = %d\n", y++);
+    printf("After y++ -> %d\n", y);
+    printf("--y = %d\n\n", --y);
+
+    /* -------- BITWISE OPERATORS -------- */
+    printf("Bitwise Operators:\n");
+    printf("a & b = %d\n", a & b);
+    printf("a | b = %d\n", a | b);
+    printf("a ^ b = %d\n", a ^ b);
+    printf("~a = %d\n", ~a);
+    printf("a << 1 = %d\n", a << 1);
+    printf("a >> 1 = %d\n\n", a >> 1);
+
+    /* -------- CONDITIONAL OPERATOR -------- */
+    printf("Conditional Operator:\n");
+    int max = (a > b) ? a : b;
+    printf("Greater value = %d\n\n", max);
+
+    /* -------- SIZEOF OPERATOR -------- */
+    printf("sizeof Operator:\n");
+    printf("Size of int = %lu bytes\n", sizeof(int));
+    printf("Size of float = %lu bytes\n\n", sizeof(float));
+
+    /* -------- EXPRESSIONS & PRECEDENCE -------- */
+    printf("Expressions & Precedence:\n");
+    int result = a + b * 2;
+    printf("a + b * 2 = %d\n", result);
+
+    return 0;
+}
