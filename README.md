@@ -992,3 +992,54 @@ int main() {
     }
     return 0;
 }
+
+
+
+
+-------------------DataTypes-----------
+#include <stdio.h>
+
+/*
+  This program explains and demonstrates
+  basic data types in C:
+  int, float, double, char, and void
+*/
+
+void showMessage();   // function with void return type
+
+int main()
+{
+    /* -------- INT -------- */
+    int age = 20;
+    printf("int:\n");
+    printf("Age = %d\n\n", age);
+
+    /* -------- FLOAT -------- */
+    float temperature = 36.5;
+    printf("float:\n");
+    printf("Temperature = %.2f\n\n", temperature);
+
+    /* -------- DOUBLE -------- */
+    double pi = 3.1415926535;
+    printf("double:\n");
+    printf("Value of Pi = %.10lf\n\n", pi);
+
+    /* -------- CHAR -------- */
+    char grade = 'A';
+    printf("char:\n");
+    printf("Grade = %c\n\n", grade);
+
+    /* -------- VOID -------- */
+    printf("void:\n");
+    showMessage();   // calling void function
+
+    return 0;
+}
+
+/* void function:
+   - does not return any value
+*/
+void showMessage()
+{
+    printf("This is a void function. It returns no value.\n");
+}
