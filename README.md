@@ -1043,3 +1043,41 @@ void showMessage()
 {
     printf("This is a void function. It returns no value.\n");
 }
+
+---------------TypeModifier--------------
+#include <stdio.h>
+
+/*
+   This program demonstrates
+   Type Modifiers in C:
+   short, long, signed, unsigned
+*/
+
+int main()
+{
+    /* -------- SHORT -------- */
+    short int smallNumber = 32000;
+    printf("short int:\n");
+    printf("Value = %d\n", smallNumber);
+    printf("Size = %lu bytes\n\n", sizeof(smallNumber));
+
+    /* -------- LONG -------- */
+    long int bigNumber = 123456789;
+    printf("long int:\n");
+    printf("Value = %ld\n", bigNumber);
+    printf("Size = %lu bytes\n\n", sizeof(bigNumber));
+
+    /* -------- SIGNED -------- */
+    signed int signedNumber = -50;
+    printf("signed int:\n");
+    printf("Value = %d\n", signedNumber);
+    printf("Size = %lu bytes\n\n", sizeof(signedNumber));
+
+    /* -------- UNSIGNED -------- */
+    unsigned int unsignedNumber = 50;
+    printf("unsigned int:\n");
+    printf("Value = %u\n", unsignedNumber);
+    printf("Size = %lu bytes\n\n", sizeof(unsignedNumber));
+
+    return 0;
+}
