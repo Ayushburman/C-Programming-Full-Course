@@ -1307,3 +1307,81 @@ int main()
 
     return 0;
 }
+-------------------------------------
+#include <stdio.h>
+
+int main()
+{
+    int number = 15;
+    int marks = 82;
+    int choice = 3;
+
+    /* -------- IF STATEMENT -------- */
+    printf("if statement:\n");
+    if (number > 0)
+    {
+        printf("Number is positive\n\n");
+    }
+
+    /* -------- IF - ELSE STATEMENT -------- */
+    printf("if-else statement:\n");
+    if (number % 2 == 0)
+    {
+        printf("Number is even\n\n");
+    }
+    else
+    {
+        printf("Number is odd\n\n");
+    }
+
+    /* -------- ELSE-IF LADDER -------- */
+    printf("else-if ladder:\n");
+    if (marks >= 90)
+    {
+        printf("Grade: A\n\n");
+    }
+    else if (marks >= 75)
+    {
+        printf("Grade: B\n\n");
+    }
+    else if (marks >= 50)
+    {
+        printf("Grade: C\n\n");
+    }
+    else
+    {
+        printf("Grade: Fail\n\n");
+    }
+
+    /* -------- NESTED IF -------- */
+    printf("Nested if:\n");
+    if (number > 0)
+    {
+        if (number < 50)
+        {
+            printf("Number is between 1 and 49\n\n");
+        }
+    }
+
+    /* -------- SWITCH-CASE -------- */
+    printf("switch-case statement:\n");
+    switch (choice)
+    {
+        case 1:
+            printf("Option 1 selected\n");
+            break;
+
+        case 2:
+            printf("Option 2 selected\n");
+            break;
+
+        case 3:
+            printf("Option 3 selected\n");
+            break;
+
+        default:
+            printf("Invalid option\n");
+    }
+
+    return 0;
+}
