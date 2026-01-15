@@ -1081,3 +1081,79 @@ int main()
 
     return 0;
 }
+
+#include <stdio.h>
+
+/* -------- GLOBAL VARIABLE -------- */
+/* Declaration + Initialization */
+int globalVar = 100;
+
+/* Function to demonstrate local scope */
+void showLocal()
+{
+    /* LOCAL VARIABLE */
+    int localVar = 50;
+
+    printf("Inside showLocal() function:\n");
+    printf("Local Variable = %d\n", localVar);
+    printf("Global Variable = %d\n\n", globalVar);
+}
+
+int main()
+{
+    /* -------- VARIABLE DECLARATION -------- */
+    int a;      // declared but not initialized
+
+    /* -------- VARIABLE INITIALIZATION -------- */
+    a = 10;     // initialization after declaration
+
+    /* Declaration + Initialization together */
+    int b = 20;
+
+    printf("Inside main() function:\n");
+    printf("a = %d\n", a);
+    printf("b = %d\n", b);
+    printf("Global Variable = %d\n\n", globalVar);
+
+    showLocal();   // function call
+
+    return 0;
+}
+--------------Variables------------------
+#include <stdio.h>
+
+/* -------- GLOBAL VARIABLE -------- */
+/* Declaration + Initialization */
+int globalVar = 100;
+
+/* Function to demonstrate local scope */
+void showLocal()
+{
+    /* LOCAL VARIABLE */
+    int localVar = 50;
+
+    printf("Inside showLocal() function:\n");
+    printf("Local Variable = %d\n", localVar);
+    printf("Global Variable = %d\n\n", globalVar);
+}
+
+int main()
+{
+    /* -------- VARIABLE DECLARATION -------- */
+    int a;      // declared but not initialized
+
+    /* -------- VARIABLE INITIALIZATION -------- */
+    a = 10;     // initialization after declaration
+
+    /* Declaration + Initialization together */
+    int b = 20;
+
+    printf("Inside main() function:\n");
+    printf("a = %d\n", a);
+    printf("b = %d\n", b);
+    printf("Global Variable = %d\n\n", globalVar);
+
+    showLocal();   // function call
+
+    return 0;
+}
