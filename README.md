@@ -1395,3 +1395,20 @@ A loop in C is used to repeat a block of code multiple times until a specified c
 👉 Loops help avoid writing the same code again and again.
 
 
+---------------------
+
+
+
+Why Do We Need Loops?
+To perform repetitive tasks
+To reduce code length
+To make programs efficient and readable
+
+
+
+----------------------
+
+
+
+
+
