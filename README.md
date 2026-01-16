@@ -1444,4 +1444,14 @@ for(int i = 1; i <= 5; i++)
 📌 Flow:
 Initialization → Condition → Body → Update → Repeat
 
+-------------------
 
+
+do
+{
+    statements;
+}
+while(condition);
+
+
+--------------------
