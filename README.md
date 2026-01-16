@@ -1385,3 +1385,13 @@ int main()
 
     return 0; 
 }
+
+
+
+--------------------
+
+
+A loop in C is used to repeat a block of code multiple times until a specified condition becomes false.
+👉 Loops help avoid writing the same code again and again.
+
+
