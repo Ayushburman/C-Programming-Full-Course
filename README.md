@@ -1413,4 +1413,35 @@ printf("Hello\n");
 printf("Hello\n");
 
 
+---------------------
+
+for(int i = 1; i <= 3; i++)
+{
+    printf("Hello\n");
+}
+
+
+---------------------
+
+
+Types of Loops in C
+1️⃣ for Loop
+Used when the number of repetitions is known.
+Syntax:
+Copy code
+C
+for(initialization; condition; increment/decrement)
+{
+    statements;
+}
+Example:
+Copy code
+C
+for(int i = 1; i <= 5; i++)
+{
+    printf("%d\n", i);
+}
+📌 Flow:
+Initialization → Condition → Body → Update → Repeat
+
 
