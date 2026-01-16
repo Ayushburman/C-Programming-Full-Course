@@ -1467,3 +1467,13 @@ do
 while(i <= 5);
 
 --------------------
+
+
+Loop Control Statements
+🔹 break
+Terminates the loop immediately
+🔹 continue
+Skips the current iteration and moves to the next
+
+
+-----------------
