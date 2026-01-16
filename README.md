@@ -1,5 +1,6 @@
 # C Programming  - THE MOTHER
 ## Developed in 1972 by Dennis Ritchie @ BELL LABS
+
 ## How the machine breathes
 - # The Problem
  - Computers were HUGE / EXPENSIVE / PROGRAMMED in Assembly language
@@ -1453,5 +1454,16 @@ do
 }
 while(condition);
 
+
+--------------------
+
+
+int i = 1;
+do
+{
+    printf("%d\n", i);
+    i++;
+}
+while(i <= 5);
 
 --------------------
