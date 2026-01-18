@@ -66,6 +66,9 @@ Ruby
 <img width="572" height="239" alt="image" src="https://github.com/user-attachments/assets/b0bbb7bf-2865-4848-ad6a-ccf540bad545" />
 
 
+
+--------------------------
+
 # C Editor
 ## What is a C Editor?
 
