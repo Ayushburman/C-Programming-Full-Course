@@ -1654,5 +1654,20 @@ int multiply(int a, int b)
 
 -------------------
 
+#include <stdio.h>
 
+void sum(int a, int b);
+
+int main()
+{
+    sum(10, 20);
+    return 0;
+}
+
+void sum(int a, int b)
+{
+    printf("Sum = %d", a + b);
+}
+
+----------------
 
