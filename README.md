@@ -1613,4 +1613,46 @@ function_name(arguments);
 
 
 -------------
+#include <stdio.h>
+
+// Function Declaration
+int add(int, int);
+
+int main()
+{
+    int result;
+    result = add(10, 20);   // Function Call
+    printf("Sum = %d", result);
+    return 0;
+}
+
+// Function Definition
+int add(int a, int b)
+{
+    return a + b;
+}
+
+----------------------
+
+#include <stdio.h>
+
+int multiply(int a, int b);
+
+int main()
+{
+    int result = multiply(4, 5);
+    printf("Result = %d", result);
+    return 0;
+}
+
+int multiply(int a, int b)
+{
+    return a * b;
+}
+
+
+
+-------------------
+
+
 
