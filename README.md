@@ -1689,5 +1689,20 @@ int square()
 }
 
 --------------
+#include <stdio.h>
 
+int square();
+
+int main()
+{
+    int result = square();
+    printf("Square = %d", result);
+    return 0;
+}
+
+int square()
+{
+    int x = 5;
+    return x * x;
+}
 
