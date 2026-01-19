@@ -1595,3 +1595,15 @@ int main() {
 }
 ----------------Functions-------------
 return_type function_name(parameters);
+
+
+---------------------
+int add(int, int);
+
+
+-----------------
+
+return_type function_name(parameters)
+{
+    // code
+}
