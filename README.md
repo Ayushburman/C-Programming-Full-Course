@@ -1593,3 +1593,5 @@ int main() {
 
     return 0;
 }
+----------------Functions-------------
+return_type function_name(parameters);
