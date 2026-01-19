@@ -1607,3 +1607,10 @@ return_type function_name(parameters)
 {
     // code
 }
+
+-------------
+function_name(arguments);
+
+
+-------------
+
