@@ -287,3 +287,5 @@ intall C extension in VS CODE
   - Compiler basics
   - Memory allocator
   - Embedded C projects
+----------------------------------------------------------
+----------------------------------------------------------
