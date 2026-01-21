@@ -102,384 +102,188 @@ Notepad++
 intall C extension in VS CODE 
 -----------------------------
 
-# C Syllabus 
-
-## 1️⃣ Foundations (Must Start Here)
-> 1. What is C?
-
->> History of C
-
->> Why C is called a mother language
-
->> Where C is used (OS, embedded systems, compilers)
-
-2. C Program Structure
-
-#include
-
-main() function
-
-Statements & blocks
-
-Compilation process (source → object → executable)
-
-3. Basic Syntax
-
-
-Keywords
-
-Identifiers
-
-Constants
-
-Variables
-
-Data types
-
--------------------------------------
-
-## 2️⃣ Data Types & Variables
-4. Data Types
-
-int
-
-float
-
-double
-
-char
-
-void
-
-------------------------------------
-5. Type Modifiers
-
-short, long
-
-signed, unsigned
-
-----------------------------------
-6. Variables
-
-Declaration
-
-Initialization
-
-Scope (local, global)
-
-Lifetime
-----------------------------------
-## 3️⃣ Operators & Expressions
-7. Operators
-
-Arithmetic (+ - * / %)
-
-Relational (< > <= >= == !=)
-
-Logical (&& || !)
-
-Assignment (= += -=)
-
-Increment / Decrement (++ --)
-
-Bitwise (& | ^ ~ << >>)
-
-Conditional (?:)
-
-sizeof
------------------------------------
-8. Expressions & Precedence
-
-Operator precedence
-
-Associativity
-
-Type conversion (implicit & explicit)
-
-## 4️⃣ Control Flow (Decision Making)
-9. Conditional Statements
-
-if
-
-if-else
-
-else-if
-
-Nested if
-
-switch-case
-
-## 5️⃣ Loops (Iteration)
-10. Looping Statements
-
-for
-
-while
-
-do-while
-
-11. Loop Control
-
-break
-
-continue
-
-goto (use carefully)
-
-## 6️⃣ Functions (Core Concept)
-12. Functions
-
-Function declaration
-
-Function definition
-
-Function call
-
-13. Types of Functions
-
-With arguments / without arguments
-
-With return / without return
-
-14. Parameter Passing
-
-Call by value
-
-Call by reference
-
-15. Recursion
-
-Recursive functions
-
-Stack behavior
-
-## 7️⃣ Arrays & Strings
-16. Arrays
-
-1D arrays
-
-2D arrays
-
-Multi-dimensional arrays
-
-17. Strings
-
-Character arrays
-
-String handling functions:
-
-strlen()
-
-strcpy()
-
-strcmp()
-
-strcat()
-
-## 8️⃣ Pointers (Most Important in C)
-18. Basics of Pointers
-
-What is a pointer?
-
-Address (&) and dereference (*)
-
-Pointer variables
-
-19. Pointer Arithmetic
-
-Increment / decrement
-
-Pointer & arrays relation
-
-20. Pointers with
-
-Arrays
-
-
-Strings
-
-Functions
-
-Structures
-
-21. Double Pointers
-
-Pointer to pointer
-
-## 9️⃣ User-Defined Data Types
-22. Structures (struct)
-
-Defining structures
-
-Accessing members
-
-Structure arrays
-
-Structure pointers
-
-23. Unions (union)
-
-Difference between struct & union
-
-24. typedef
-
-Creating custom type names
-
-25. Enumerations (enum)
-
-Named integer constants
-
-## 🔟 Memory Management
-26. Storage Classes
-
-auto
-
-register
-
-static
-
-extern
-
-27. Dynamic Memory Allocation
-
-malloc()
-
-calloc()
-
-realloc()
-
-free()
-
-## 1️⃣1️⃣ File Handling
-28. File Operations
-
-File pointers (FILE *)
-
-Opening files:
-
-fopen()
-
-Reading:
-
-fscanf()
-
-fgets()
-
-Writing:
-
-fprintf()
-
-fputs()
-
-Closing:
-
-fclose()
-
-## 1️⃣2️⃣ Preprocessor & Macros
-29. Preprocessor Directives
-
-#include
-
-#define
-
-#undef
-
-#ifdef
-
-#ifndef
-
-#endif
-
-30. Macros
-
-Function-like macros
-
-Constants via macros
-
-## 1️⃣3️⃣ Error Handling & Debugging
-31. Errors in C
-
-Syntax errors
-
-Runtime errors
-
-Logical errors
-
-32. Debugging
-
-Compiler warnings
-
-Using debugger (gdb basics)
-
-Common mistakes
-
-## 1️⃣4️⃣ Advanced C Concepts
-33. Command Line Arguments
-
-argc
-
-argv
-
-34. Bit Manipulation
-
-Bitwise operations
-
-Flags & masks
-
-35. Volatile & Const
-
-const
-
-volatile
-
-36. Inline Functions
-## 1️⃣5️⃣ System-Level & Practical Topics
-37. Header Files
-
-Creating custom header files
-
-38. Compilation Process
-
-Preprocessing
-
-Compilation
-
-Linking
-
-39. Static vs Dynamic Linking
-40. C Coding Standards
-
-Good naming
-
-Formatting
-
-Best practices
-
-## 1️⃣6️⃣ Practice & Projects (VERY IMPORTANT)
-Beginner Projects
-
-Calculator
-
-Number guessing game
-
-Pattern printing
-
-Intermediate Projects
-
-Student record system
-
-Bank management system
-
-File-based CRUD program
-
-Advanced Projects
-
-Mini shell
-
-Compiler basics
-
-Memory allocator
-
-Embedded C projects
-
-   
+# C Programming Syllabus
+
+## 1. Foundations
+- What is C
+  - History of C
+  - Why C is called a mother language
+  - Uses of C (OS, embedded systems, compilers)
+- Program structure
+  - `#include`
+  - `main()`
+  - Statements and blocks
+  - Compilation process
+
+## 2. Data Types & Variables
+- Data types
+  - `int`, `float`, `double`, `char`, `void`
+- Type modifiers
+  - `short`, `long`
+  - `signed`, `unsigned`
+- Variables
+  - Declaration
+  - Initialization
+  - Scope (local, global)
+  - Lifetime
+
+## 3. Operators & Expressions
+- Operators
+  - Arithmetic
+  - Relational
+  - Logical
+  - Assignment
+  - Increment / Decrement
+  - Bitwise
+  - Conditional (`?:`)
+  - `sizeof`
+- Expressions
+  - Operator precedence
+  - Associativity
+  - Type conversion
+
+## 4. Control Flow
+- Conditional statements
+  - `if`
+  - `if-else`
+  - `else-if`
+  - Nested `if`
+  - `switch-case`
+
+## 5. Loops
+- Looping statements
+  - `for`
+  - `while`
+  - `do-while`
+- Loop control
+  - `break`
+  - `continue`
+  - `goto`
+
+## 6. Functions
+- Basics
+  - Declaration
+  - Definition
+  - Function call
+- Types of functions
+  - With / without arguments
+  - With / without return
+- Parameter passing
+  - Call by value
+  - Call by reference
+- Recursion
+  - Recursive functions
+  - Stack behavior
+
+## 7. Arrays & Strings
+- Arrays
+  - 1D arrays
+  - 2D arrays
+  - Multi-dimensional arrays
+- Strings
+  - Character arrays
+  - String functions
+    - `strlen()`
+    - `strcpy()`
+    - `strcmp()`
+    - `strcat()`
+
+## 8. Pointers
+- Pointer basics
+  - Address (`&`)
+  - Dereference (`*`)
+- Pointer arithmetic
+- Pointers with
+  - Arrays
+  - Strings
+  - Functions
+  - Structures
+- Double pointers
+
+## 9. User-Defined Data Types
+- Structures (`struct`)
+  - Structure arrays
+  - Structure pointers
+- Unions (`union`)
+- `typedef`
+- Enumerations (`enum`)
+
+## 10. Memory Management
+- Storage classes
+  - `auto`
+  - `register`
+  - `static`
+  - `extern`
+- Dynamic memory allocation
+  - `malloc()`
+  - `calloc()`
+  - `realloc()`
+  - `free()`
+
+## 11. File Handling
+- File operations
+  - File pointers (`FILE *`)
+  - `fopen()`
+  - `fscanf()`, `fgets()`
+  - `fprintf()`, `fputs()`
+  - `fclose()`
+
+## 12. Preprocessor & Macros
+- Preprocessor directives
+  - `#include`
+  - `#define`
+  - `#undef`
+  - `#ifdef`
+  - `#ifndef`
+  - `#endif`
+- Macros
+  - Function-like macros
+  - Constants
+
+## 13. Error Handling & Debugging
+- Errors
+  - Syntax errors
+  - Runtime errors
+  - Logical errors
+- Debugging
+  - Compiler warnings
+  - GDB basics
+  - Common mistakes
+
+## 14. Advanced C Concepts
+- Command line arguments
+  - `argc`
+  - `argv`
+- Bit manipulation
+  - Bitwise operations
+  - Flags and masks
+- `const` and `volatile`
+- Inline functions
+
+## 15. System-Level Concepts
+- Header files
+  - Custom header files
+- Compilation stages
+  - Preprocessing
+  - Compilation
+  - Linking
+- Static vs dynamic linking
+- Coding standards
+  - Naming conventions
+  - Formatting
+  - Best practices
+
+## 16. Practice & Projects
+- Beginner projects
+  - Calculator
+  - Number guessing game
+  - Pattern printing
+- Intermediate projects
+  - Student record system
+  - Bank management system
+  - File-based CRUD program
+- Advanced projects
+  - Mini shell
+  - Compiler basics
+  - Memory allocator
+  - Embedded C projects
