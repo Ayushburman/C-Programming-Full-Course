@@ -2023,3 +2023,38 @@ int main() {
 }
 
 ----------------------------
+#include <stdio.h>
+#include <stdlib.h>
+
+struct node {
+    int data;
+    struct node *next;
+};
+
+int main() {
+    struct node *head, *temp;
+    int key, found = 0;
+
+    head = (struct node*)malloc(sizeof(struct node));
+    head->data = 10;
+    head->next = NULL;
+
+    printf("Enter element to search: ");
+    scanf("%d", &key);
+
+    temp = head;
+    while(temp != NULL) {
+        if(temp->data == key) {
+            found = 1;
+            break;
+        }
+        temp = temp->next;
+    }
+
+    if(found)
+        printf("Element found");
+    else
+        printf("Element not found");
+
+    return 0;
+}
