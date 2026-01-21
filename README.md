@@ -168,7 +168,7 @@ Initialization
 Scope (local, global)
 
 Lifetime
-
+----------------------------------
 ## 3️⃣ Operators & Expressions
 7. Operators
 
@@ -187,7 +187,7 @@ Bitwise (& | ^ ~ << >>)
 Conditional (?:)
 
 sizeof
-
+-----------------------------------
 8. Expressions & Precedence
 
 Operator precedence
