@@ -25,7 +25,7 @@ This wasn't how they were going to use their computer typically. Instead, this w
 
 <img width="385" height="217" alt="image" src="https://github.com/user-attachments/assets/3cbd8005-403a-4f71-b997-c21a7186efb4" />
 
-
+-----------------------------
 ## COMPILER
 A compiler is a program that translates the entire source code at once from a high-level language into machine code (or object code).
 
@@ -136,6 +136,8 @@ Variables
 
 Data types
 
+-------------------------------------
+
 ## 2️⃣ Data Types & Variables
 4. Data Types
 
@@ -149,12 +151,14 @@ char
 
 void
 
+------------------------------------
 5. Type Modifiers
 
 short, long
 
 signed, unsigned
 
+----------------------------------
 6. Variables
 
 Declaration
