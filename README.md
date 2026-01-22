@@ -422,3 +422,11 @@ So languages are built using C.
 > Basically → backbone of computers 🧠
 
 -------------------------------------------------------------------------------------------------------------------------------------
+#### 🎮 5. Game Engines & Graphics
+
+### Many game engines use C/C++:
+
+> Unity (C++ core)
+> Unreal Engine
+>Graphics drivers
+>Because games need speed 🎯
