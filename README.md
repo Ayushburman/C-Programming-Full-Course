@@ -307,4 +307,29 @@ intall C extension in VS CODE
 
 > C is a language that talks closely to the computer’s brain (hardware).
 
+----------------------------------------------------------------------------------------------------------------------------------------------
+### ✅ History of C
 
+### C was developed in 1972 by Dennis Ritchie at Bell Labs (USA).
+
+> Timeline:
+
+> 1️⃣ 1960s – ALGOL
+→ Inspired many languages
+
+> 2️⃣ 1967 – BCPL
+→ System programming language
+
+> 3️⃣ 1970 – B Language
+→ Created by Ken Thompson
+
+> 4️⃣ 1972 – C Language
+→ Created by Dennis Ritchie (improved B)
+
+> 5️⃣ 1973 – UNIX in C
+→ UNIX OS rewritten in C (big breakthrough 🚀)
+
+> This made C very popular worldwide.
+
+>  Earlier, operating systems were written in Assembly (very hard).
+C made OS development easier + portable.
