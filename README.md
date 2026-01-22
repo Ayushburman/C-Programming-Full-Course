@@ -289,3 +289,22 @@ intall C extension in VS CODE
   - Embedded C projects
 ----------------------------------------------------------
 ----------------------------------------------------------
+### C is a high-level, general-purpose programming language that was designed for system programming and performance-critical tasks.
+
+>> It is:
+
+> Fast ⚡
+
+> Close to hardware 🖥️
+
+> Portable (runs on many systems)
+
+> Powerful 💪
+
+> C lets you control memory, CPU, and hardware directly, which most modern languages hide.
+
+> So in simple words:
+
+> C is a language that talks closely to the computer’s brain (hardware).
+
+
