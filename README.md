@@ -333,3 +333,31 @@ intall C extension in VS CODE
 
 >  Earlier, operating systems were written in Assembly (very hard).
 C made OS development easier + portable.
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+
+### ✅ Why C is Called the “Mother Language”?
+
+### C is called Mother Language because many modern languages are based on C.
+
+#### Examples:
+
+> Language	Relation with C
+> C++	Extension of C
+> Java	C-like syntax
+> C#	Inspired by C
+> Python	Uses C internally
+> JavaScript	C-style syntax
+> PHP	Written in C
+> Go	Inspired by C
+
+> So:
+
+> Most languages “learned from C” → like children from a mother 👩‍💻
+
+Also:
+
+> If you know C → learning other languages becomes easy
+
+> You understand how computers really work
+
+> That’s why teachers and engineers respect C a lot.
