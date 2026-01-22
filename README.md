@@ -387,3 +387,14 @@ Also:
 ✔ Talks directly to hardware
 
 Without C → modern OS would not exist.
+
+#### 🔌 2. Embedded Systems
+
+>> Embedded systems = small computers inside machines.
+> Examples: Washing machines,  Cars,  Microwaves,  Routers,  Medical devices,  Smart TVs
+
+> These devices have: Low memory , Low power,  No heavy software
+
+So they need lightweight + fast code → C is perfect.
+--------------------------------------------------------------------------------------------------------------------------------
+
