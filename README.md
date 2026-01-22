@@ -432,3 +432,10 @@ So languages are built using C.
 >Because games need speed 🎯
 
 ---------------------------------------------------------------------------------------------------------------------------------------
+>> **BEll LABS**
+<details>
+<summary> Content here is inspired from the book "The c programmming language" by  Ben Kernighan & Denis Ritchie </summary>
+
+
+
+</details>
