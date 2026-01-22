@@ -409,3 +409,16 @@ Examples: GCC (C/C++ compiler), Python interpreter, Java JVM parts
 ✔ High performance
 
 So languages are built using C.
+---------------------------------------------------------------------------------------------------------------------------------
+
+### 💻 4. System Software
+
+#### C is used for:
+
+> Device drivers
+> File systems
+> Database engines
+> Networking software
+> Basically → backbone of computers 🧠
+
+-------------------------------------------------------------------------------------------------------------------------------------
