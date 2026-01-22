@@ -397,4 +397,15 @@ Without C → modern OS would not exist.
 
 So they need lightweight + fast code → C is perfect.
 --------------------------------------------------------------------------------------------------------------------------------
+### 🛠️ 3. Compilers & Interpreters
 
+#### Compiler = Program that converts code → machine language
+
+>> Many famous compilers are written in C:
+Examples: GCC (C/C++ compiler), Python interpreter, Java JVM parts
+
+>> Why?
+✔ C is close to machine code
+✔ High performance
+
+So languages are built using C.
