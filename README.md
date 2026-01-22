@@ -361,3 +361,29 @@ Also:
 > You understand how computers really work
 
 > That’s why teachers and engineers respect C a lot.
+--------------------------------------------------------------------------------------------------------------------------------------------------
+
+### ✅ Uses of C
+
+### C is mainly used where speed, control, and reliability matter.
+
+>> 🖥️ 1. Operating Systems (OS)
+
+>> Most operating systems are written in C.
+
+> Examples:
+
+> Linux 🐧
+
+> Windows (core parts)
+
+> macOS
+
+> UNIX
+
+### Why C?
+✔ Very fast
+✔ Controls memory
+✔ Talks directly to hardware
+
+Without C → modern OS would not exist.
