@@ -771,6 +771,7 @@ Rules in **C & Python**:
 ### ❌ Cannot Start With Number
 ```txt
 2num ❌
+```
 
 
 ----------------------------------------------------------------------------------
@@ -794,4 +795,22 @@ Preprocessor → Compiler → Linker → Program
 
 #include works in Preprocessor stage.
 ----------------------------------------------------------------------------------
+2. Meaning of #include
+
+#include literally means:
+
+“Copy the content of this file and paste it here.”
+
+Yes — it is like copy-paste behind the scenes.
+
+When compiler sees:
+
+#include <stdio.h>
+
+
+It replaces it with:
+
+👉 All code written inside stdio.h.
+--------------------------------------------------------------------------------
+
 
