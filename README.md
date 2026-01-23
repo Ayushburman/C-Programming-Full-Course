@@ -697,4 +697,9 @@ Later changes didn’t add much value.
 ## " Python to C "
 ### Python is written in C
 
-
++-----------------------------Python----+---------------C----+
+> White Spaces is essential               > White Space Ignored
+> Object Oriented                         > Not Object Oriented
+> Convenient Data Structures              > Fast and Effiecient DS
+> Auto memmory management                 > Manual memory manmt
+> 1980                                    > 1970
