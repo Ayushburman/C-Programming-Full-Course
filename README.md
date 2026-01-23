@@ -808,9 +808,15 @@ When compiler sees:
 #include <stdio.h>
 
 
-It replaces it with:
-
-👉 All code written inside stdio.h.
+It replaces it with: All code written inside stdio.h.
 --------------------------------------------------------------------------------
 
+# What is # in C?
 
+### In C, when a line starts with #, it means:
+
+👉 “This line is for the preprocessor, not for the compiler.”
+
+So:
+
+" # = talk to preprocessor "
