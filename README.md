@@ -698,8 +698,78 @@ Later changes didn’t add much value.
 ### Python is written in C
 
 +-----------------------------Python----+---------------C----+
-> White Spaces is essential               > White Space Ignored
-> Object Oriented                         > Not Object Oriented
-> Convenient Data Structures              > Fast and Effiecient DS
-> Auto memmory management                 > Manual memory manmt
-> 1980                                    > 1970
+> White Spaces is essential       |        >> White Space Ignored
+> Object Oriented                 |       >> Not Object Oriented
+> Convenient Data Structures      |       >> Fast and Effiecient DS
+> Auto memmory management         |        >> Manual memory manmt
+> 1980                            |        >> 1970
+-------------------------------------------------------------
+
+
+# 📘 C vs Python – Basic Concepts Comparison
+
+This document explains basic similarities and differences between **C** and **Python** for beginners.
+
+---
+
+## ✅ 1. Arithmetic Operators: `+ - * / %`
+
+These are used for calculations.
+
+In **C** and **Python**, they mostly work the same.
+
+| Operator | Meaning   | Example                    |
+|----------|-----------|----------------------------|
+| `+`      | Add       | `5 + 3 = 8`                |
+| `-`      | Subtract  | `5 - 3 = 2`                |
+| `*`      | Multiply  | `5 * 3 = 15`               |
+| `/`      | Divide    | `5 / 2 = 2.5 (Python), 2 (C)` |
+| `%`      | Remainder | `5 % 2 = 1`                |
+
+### 👉 Difference
+- **Python**: `/` always gives decimal.
+- **C**: `/` with `int` gives integer.
+
+---
+
+## ✅ 2. Comparison Operators: `== != < > <= >=`
+
+Used to compare values.
+
+Same in both **C** and **Python**:
+
+| Operator | Meaning         | Example  |
+|----------|-----------------|----------|
+| `==`     | Equal           | `a == b` |
+| `!=`     | Not equal       | `a != b` |
+| `<`      | Less than       | `a < b`  |
+| `>`      | Greater than    | `a > b`  |
+| `<=`     | Less / Equal    | `a <= b` |
+| `>=`     | Greater / Equal | `a >= b` |
+
+### Result
+- **Python** → `True` / `False`
+- **C** → `1` / `0`
+
+---
+
+## ✅ 3. Variable Naming Rules
+
+Format: `letter/underscore + numbers/letters/underscores`
+
+Rules in **C & Python**:
+
+### ✔ Can Start With
+- Letter → `a`, `A`
+- Underscore → `_`
+
+### ✔ Can Contain
+- Letters
+- Numbers
+- `_`
+
+### ❌ Cannot Start With Number
+```txt
+2num ❌
+
+
