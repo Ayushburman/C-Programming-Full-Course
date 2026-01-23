@@ -820,3 +820,17 @@ It replaces it with: All code written inside stdio.h.
 So:
 
 " # = talk to preprocessor "
+------------------------------------------------------------------------------------------
+🔷 2. What is Preprocessor? (Very Simple)
+
+Think of preprocessor as a helper 🧑‍🔧 that prepares your code.
+
+It:
+
+✔ Adds files
+✔ Replaces shortcuts
+✔ Removes comments
+✔ Checks conditions
+
+Before real compiling.
+----------------------------------------------------------------------------------------
