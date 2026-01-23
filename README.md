@@ -831,6 +831,19 @@ It:
 ✔ Replaces shortcuts
 ✔ Removes comments
 ✔ Checks conditions
+" Before real compiling."
 
-Before real compiling.
 ----------------------------------------------------------------------------------------
+
+🔷 5. What is stdio.h?
+
+stdio.h = Standard Input Output file
+
+It contains info about:
+
+Function	Use
+printf	print
+scanf	input
+
+So when you include it, your program learns these functions.
+-------------------------------------------------------------------------------------
