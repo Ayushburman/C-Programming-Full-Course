@@ -773,3 +773,25 @@ Rules in **C & Python**:
 2num ❌
 
 
+----------------------------------------------------------------------------------
+🔷 1. What is #include?
+
+Example:
+
+#include <stdio.h>
+
+
+👉 #include is a preprocessor directive.
+
+That means:
+
+It is handled before the actual compilation starts.
+
+So first:
+
+Preprocessor → Compiler → Linker → Program
+
+
+#include works in Preprocessor stage.
+----------------------------------------------------------------------------------
+
