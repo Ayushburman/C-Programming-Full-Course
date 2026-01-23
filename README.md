@@ -844,6 +844,14 @@ It contains info about:
 Function	Use
 printf	print
 scanf	input
+" So when you include it, your program learns these functions."
 
-So when you include it, your program learns these functions.
 -------------------------------------------------------------------------------------
+✔ # → talks to preprocessor
+✔ Preprocessor runs first
+✔ #include → brings file
+✔ Needed for functions
+✔ < > = system
+✔ " " = own file
+
+---------------------------------------------------------------------------------------
