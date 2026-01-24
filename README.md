@@ -855,3 +855,7 @@ scanf	input
 ✔ " " = own file
 
 ---------------------------------------------------------------------------------------
+<img width="592" height="212" alt="image" src="https://github.com/user-attachments/assets/19c50cd8-ad46-4b6a-9693-433721ad7ca3" />
+
+
+## In C Program Start with : main()
