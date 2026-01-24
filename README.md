@@ -859,3 +859,16 @@ scanf	input
 
 
 ## In C Program Start with : main()
+### CODE 
+
+``` include <stdio.h>
+
+int main() {
+    printf("Hello\n");
+    return 0;
+}
+```
+
+<img width="335" height="154" alt="image" src="https://github.com/user-attachments/assets/c93098fa-1277-4047-b61a-5efd7f648bc8" />
+
+----------------------------------------------------------------------------------------
