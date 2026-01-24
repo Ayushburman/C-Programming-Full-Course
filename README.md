@@ -905,5 +905,26 @@ C:
 scanf("%d", &x);
 
 ```
+----------------------------------------------------------------------------------------------------------
+C:
+```
+scanf("%d", &x);
+```
+
+-> Two new things:
+
+✅ Format
+
+%d → read integer
+
+✅ Ampersand &
+
+-> Means: “address of x”
+
+Why?
+
+Because C needs to know where to store the value.
+
+👉 This is called call by reference
 
 
