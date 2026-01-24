@@ -956,3 +956,27 @@ Structure:
 -> buffer	where to store
 -> size	max length
 -> source	from where
+----------------------------------------------------------------------------------------
+#🔹 2. Standard Input / Output / Error
+
+### C always has 3 files open:
+
+-> Name	Meaning
+-> stdin	keyboard
+-> stdout	screen
+-> stderr	errors
+
+Example:
+```
+fgets(line, 1000, stdin);   // keyboard
+printf("Hi");             // screen
+fprintf(stderr,"Error");  // error screen
+```
+
+In terminal:
+
+-> All appear on screen
+
+-> But when redirecting files → errors still visible
+
+-> This is how real programs separate output and errors.
