@@ -889,3 +889,21 @@ printf("Answer %d\n", 42);
 
 ```
 -> In C, nothing is automatic. You control everything
+
+-----------------------------------------------------------------------------------------------------------------
+
+# Input: input() vs scanf()
+```
+Python:
+x = input()
+``` 
+
+-> Reads whole line.
+
+```
+C:
+scanf("%d", &x);
+
+```
+
+
