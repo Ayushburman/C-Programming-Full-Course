@@ -927,4 +927,25 @@ Because C needs to know where to store the value.
 
 👉 This is called call by reference
 
+-----------------------------------------------------------------------------------------------------
+#🔹 1. fgets() – Safer Input Than scanf
 
+Earlier he showed scanf. Now he shows a safer way:
+
+```fgets(line, 1000, stdin);```
+
+
+Meaning:
+
+Read up to 1000 characters from keyboard.
+
+Why safer?
+
+Because:
+
+scanf("%s", ...) can overflow ❌
+
+fgets() limits input size ✅
+
+So it avoids crashes.
+----------------------------------------------------------------------------------------
