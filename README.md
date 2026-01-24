@@ -872,3 +872,20 @@ int main() {
 <img width="335" height="154" alt="image" src="https://github.com/user-attachments/assets/c93098fa-1277-4047-b61a-5efd7f648bc8" />
 
 ----------------------------------------------------------------------------------------
+# Printing Output (print vs printf)
+### Python
+#Code
+
+```
+print("Answer", 42)
+
+```
+->Easy. Auto spacing. Auto types.
+
+### C:
+
+```
+printf("Answer %d\n", 42);
+
+```
+-> In C, nothing is automatic. You control everything
