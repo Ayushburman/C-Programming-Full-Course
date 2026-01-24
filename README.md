@@ -952,7 +952,7 @@ So it avoids crashes.
 Structure:
 ```fgets(buffer, size, source);```
 
-Part	Meaning
-buffer	where to store
-size	max length
-source	from where
+-> Part	Meaning
+-> buffer	where to store
+-> size	max length
+-> source	from where
