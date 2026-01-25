@@ -1003,3 +1003,12 @@ y = 3.2;
 scanf("%d", &x);
 printf("%d", x);
 
+-> 4️⃣ Control Statements
+
+Used for decision & loops.
+
+Example: if, for, while
+```
+if (x > 0)
+    printf("Positive");
+```
