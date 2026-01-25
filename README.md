@@ -990,3 +990,11 @@ Used to create variables.
 int x;
 float y;
 ```
+
+-> 2️⃣ Assignment Statement
+
+Used to give value.
+```
+x = 5;
+y = 3.2;
+```
