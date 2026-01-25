@@ -982,3 +982,11 @@ In terminal:
 -> This is how real programs separate output and errors.
 
 ---------------------------------------------------------------
+#Types of Statements
+-> 1️⃣ Declaration Statement
+
+Used to create variables.
+```
+int x;
+float y;
+```
