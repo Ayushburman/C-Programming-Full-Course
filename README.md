@@ -1,4 +1,4 @@
-# C Programming  - THE MOTHER
+  # C Programming  - THE MOTHER
 ## Developed in 1972 by Dennis Ritchie @ BELL LABS
 
 ## How the machine breathes
@@ -980,3 +980,5 @@ In terminal:
 -> But when redirecting files → errors still visible
 
 -> This is how real programs separate output and errors.
+
+---------------------------------------------------------------
