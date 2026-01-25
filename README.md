@@ -998,3 +998,8 @@ Used to give value.
 x = 5;
 y = 3.2;
 ```
+
+-> 3️⃣ Input / Output Statement
+scanf("%d", &x);
+printf("%d", x);
+
