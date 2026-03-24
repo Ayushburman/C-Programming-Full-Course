@@ -24,4 +24,9 @@ int main(void) {
     unsigned int  ui = 4294967295U;   /* UINT_MAX */
     unsigned char uc = 255;
 
+ /* ── Floating-point family ───────────────────────────── */
+    float       f  = 3.14f;
+    double      d  = 3.141592653589793;
+    long double ld = 3.14159265358979323846L;
+
 
