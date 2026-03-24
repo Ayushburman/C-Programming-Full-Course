@@ -35,3 +35,17 @@ int main(void) {
     printf("  [%8.2f]   width 8, 2 decimal places\n", 3.14159);
     printf("  [%.5s]    truncate string to 5 chars: %.5s\n", "hello", "helloworld");
  
+  /* ── getchar / putchar ──────────────────────────────── */
+    printf("\n=== getchar / putchar demo ===\n");
+    printf("  (skipped in demo — would block for terminal input)\n");
+ 
+    /*
+     * In a real terminal you'd do:
+     *
+     *   printf("Enter a char: ");
+     *   fflush(stdout);          <- flush before blocking read
+     *   int ch = getchar();
+     *   printf("You typed: ");
+     *   putchar(ch);
+     *   putchar('\n');
+     */
