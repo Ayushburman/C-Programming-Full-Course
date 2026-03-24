@@ -69,3 +69,8 @@ int main(void) {
     int num = -7;
     const char *sign = (num > 0) ? "positive" : (num < 0) ? "negative" : "zero";
     printf("  %d is %s\n", num, sign);
+
+  /* ── goto — cleanup pattern (one legitimate use) ─────── */
+    printf("\n=== goto — the only widely-accepted use: cleanup ===\n");
+    int error = 0;
+ 
