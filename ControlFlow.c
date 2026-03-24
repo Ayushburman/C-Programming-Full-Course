@@ -16,3 +16,13 @@ char grade(int marks) {
     else if (marks >= 45) return 'D';
     else                  return 'F';
 }
+
+int main(void) {
+ 
+    /* ── Basic if / else ─────────────────────────────────── */
+    printf("=== if / else-if / else ===\n");
+    int scores[] = {95, 82, 61, 44, 30};
+    for (int i = 0; i < 5; i++) {
+        printf("  marks=%3d  →  grade %c\n", scores[i], grade(scores[i]));
+    }
+ 
