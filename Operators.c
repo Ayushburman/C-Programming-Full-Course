@@ -37,3 +37,13 @@ int main(void) {
     printf("  %d <  %d  →  %d\n", a, b, a <  b);
     printf("  %d >= %d  →  %d\n", a, b, a >= b);
     printf("  %d <= %d  →  %d\n", a, b, a <= b);
+
+  /* ── Logical ────────────────────────────────────────── */
+    printf("\n=== Logical ===\n");
+    int p = 1, q = 0;
+    printf("  %d && %d  →  %d\n", p, q, p && q);
+    printf("  %d || %d  →  %d\n", p, q, p || q);
+    printf("  !%d       →  %d\n", p,    !p);
+    printf("  short-circuit: 0 && (1/0) never evaluates division → safe\n");
+
+
