@@ -76,3 +76,19 @@ int main(void) {
     printf("  fgets(buf, n, stdin) reads full line including spaces\n");
     printf("  Always use fgets for strings. Never use gets() — no bounds check.\n");
  
+ /* Simulate fgets parsing from a string buffer */
+    const char *line = "Chandigarh University\n";
+    char out[64];
+    /* copy and strip trailing newline */
+    strncpy(out, line, sizeof(out) - 1);
+    out[strcspn(out, "\n")] = '\0';
+    printf("  fgets line (newline stripped): \"%s\"\n", out);
+ 
+    /* ── scanf pitfall: leftover newline ─────────────────── */
+    printf("\n=== scanf pitfall reminder ===\n");
+    printf("  After scanf(\"%%d\"), a '\\n' remains in the buffer.\n");
+    printf("  Fix: scanf(\" %%c\", &ch)  — note the leading space.\n");
+ 
+    return 0;
+}
+ 
