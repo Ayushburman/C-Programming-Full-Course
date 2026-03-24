@@ -25,3 +25,13 @@ int main(void) {
     printf("  %%x  hex         : %x\n",  255);
     printf("  %%o  octal       : %o\n",  8);
     printf("  %%%%  literal %%\n");
+
+
+    /* Width and precision */
+    printf("\n=== width & precision ===\n");
+    printf("  [%10d]   right-aligned width 10\n",   42);
+    printf("  [%-10d]   left-aligned  width 10\n",  42);
+    printf("  [%010d]   zero-padded   width 10\n",  42);
+    printf("  [%8.2f]   width 8, 2 decimal places\n", 3.14159);
+    printf("  [%.5s]    truncate string to 5 chars: %.5s\n", "hello", "helloworld");
+ 
