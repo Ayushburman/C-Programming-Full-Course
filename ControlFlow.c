@@ -25,4 +25,14 @@ int main(void) {
     for (int i = 0; i < 5; i++) {
         printf("  marks=%3d  →  grade %c\n", scores[i], grade(scores[i]));
     }
- 
+   /* ── Nested if — FizzBuzz logic explained ───────────── */
+    printf("\n=== nested if (FizzBuzz 1–20) ===\n");
+    for (int n = 1; n <= 20; n++) {
+        if      (n % 15 == 0) printf("FizzBuzz ");
+        else if (n %  3 == 0) printf("Fizz ");
+        else if (n %  5 == 0) printf("Buzz ");
+        else                  printf("%d ", n);
+    }
+    printf("\n");
+
+
