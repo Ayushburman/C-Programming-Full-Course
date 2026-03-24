@@ -73,4 +73,31 @@ int main(void) {
   /* ── goto — cleanup pattern (one legitimate use) ─────── */
     printf("\n=== goto — the only widely-accepted use: cleanup ===\n");
     int error = 0;
+
+ /* simulate multi-step operation that might fail early */
+    printf("  step 1: allocating…  OK\n");
+    printf("  step 2: opening file… ");
+    error = 1;   /* simulate failure */
+    if (error) {
+        printf("FAILED\n");
+        goto cleanup;   /* jump past remaining steps */
+    }
+    printf("  step 3: processing…  (never reached)\n");
+ 
+cleanup:
+    printf("  cleanup: releasing resources.\n");
+    printf("  Note: in production, prefer early return or do-while(0) trick.\n");
+ 
+    /* ── short-circuit evaluation ────────────────────────── */
+    printf("\n=== short-circuit evaluation ===\n");
+    int x = 0;
+    /* second operand never evaluated when first is 0 (AND) */
+    if (x != 0 && (10 / x > 1)) {
+        printf("  this line never prints\n");
+    } else {
+        printf("  short-circuit saved us from division by zero\n");
+    }
+ 
+    return 0;
+}
  
