@@ -62,3 +62,10 @@ int main(void) {
         case 1: printf("feature-A  ");
         default: printf("(base)\n");
     }
+
+
+   /* ── Conditional expression (ternary) ───────────────── */
+    printf("\n=== ternary as concise if ===\n");
+    int num = -7;
+    const char *sign = (num > 0) ? "positive" : (num < 0) ? "negative" : "zero";
+    printf("  %d is %s\n", num, sign);
