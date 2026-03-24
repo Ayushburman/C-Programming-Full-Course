@@ -80,3 +80,12 @@ int main(void) {
     int arr[10];
     printf("  int arr[10]: sizeof(arr)/sizeof(arr[0]) = %zu elements\n",
            sizeof(arr) / sizeof(arr[0]));
+
+ /* ── Precedence reminder ────────────────────────────── */
+    printf("\n=== Precedence demo ===\n");
+    printf("  2 + 3 * 4     = %d  (* before +)\n",   2 + 3 * 4);
+    printf("  (2 + 3) * 4   = %d  (parens first)\n", (2 + 3) * 4);
+    printf("  8 / 2 * 2     = %d  (left-to-right)\n", 8 / 2 * 2);
+ 
+    return 0;
+}
