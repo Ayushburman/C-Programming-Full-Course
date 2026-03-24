@@ -43,3 +43,12 @@ int main(void) {
     printf("  double      : %zu\n", sizeof(double));
     printf("  long double : %zu\n", sizeof(long double));
     printf("  bool        : %zu\n", sizeof(bool));
+
+
+ /* ── Print limits ────────────────────────────────────── */
+    printf("\n=== platform limits ===\n");
+    printf("  INT_MIN  = %d\n",  INT_MIN);
+    printf("  INT_MAX  = %d\n",  INT_MAX);
+    printf("  UINT_MAX = %u\n",  UINT_MAX);
+    printf("  FLT_MAX  = %e\n",  FLT_MAX);
+    printf("  DBL_MAX  = %e\n",  DBL_MAX);
