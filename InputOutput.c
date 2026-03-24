@@ -7,3 +7,7 @@
  * Compile : gcc input_output.c -o input_output
  * Run     : ./input_output
  */
+#include <stdio.h>
+#include <string.h>
+ 
+int main(void) {
