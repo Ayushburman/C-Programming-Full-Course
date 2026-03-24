@@ -49,3 +49,18 @@ int main(void) {
      *   putchar(ch);
      *   putchar('\n');
      */
+/* ── scanf demo with buffer (simulated via sscanf) ──── */
+    printf("\n=== sscanf (safe demo without blocking stdin) ===\n");
+    const char *input_line = "Ayush 21 3.85";
+    char  name[32];
+    int   age;
+    float gpa;
+
+    int matched = sscanf(input_line, "%31s %d %f", name, &age, &gpa);
+    printf("  Parsed %d fields from \"%s\"\n", matched, input_line);
+    printf("  name = %s\n",  name);
+    printf("  age  = %d\n",  age);
+    printf("  gpa  = %.2f\n", gpa);
+
+
+ 
