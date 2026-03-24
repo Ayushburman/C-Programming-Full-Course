@@ -70,3 +70,9 @@ int main(void) {
     printf("  Result string: \"%s\"\n", buffer);
 
 
+/* ── fgets — safe line input ─────────────────────────── */
+    printf("\n=== fgets vs scanf ===\n");
+    printf("  scanf(\"%%s\")   stops at whitespace — misses multi-word input\n");
+    printf("  fgets(buf, n, stdin) reads full line including spaces\n");
+    printf("  Always use fgets for strings. Never use gets() — no bounds check.\n");
+ 
