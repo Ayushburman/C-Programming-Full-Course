@@ -29,4 +29,6 @@ int main(void) {
     double      d  = 3.141592653589793;
     long double ld = 3.14159265358979323846L;
 
+ /* ── Boolean (C99+) ─────────────────────────────────── */
+    bool flag = true;
 
