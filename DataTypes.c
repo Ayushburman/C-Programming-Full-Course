@@ -66,3 +66,12 @@ int main(void) {
     printf("  float  f  = %.6f\n", f);
     printf("  double d  = %.15f\n", d);
     printf("  bool flag = %s\n",  flag ? "true" : "false");
+
+/* ── Type casting ────────────────────────────────────── */
+    printf("\n=== casting ===\n");
+    int   x = 7, y = 2;
+    float result_bad  = x / y;              /* integer division first */
+    float result_good = (float)x / y;       /* explicit cast before div */
+    printf("  7 / 2 (int div)   = %.1f\n", result_bad);
+    printf("  (float)7 / 2      = %.1f\n", result_good);
+ 
