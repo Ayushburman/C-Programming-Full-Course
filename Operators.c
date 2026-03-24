@@ -20,4 +20,11 @@ int main(void) {
     printf("  %d * %d = %d\n",  a, b, a * b);
     printf("  %d / %d = %d  (integer division)\n", a, b, a / b);
     printf("  %d %% %d = %d  (modulo)\n", a, b, a % b);
+
+
+    /* prefix vs postfix */
+    int x = 10;
+    printf("\n  x=%d,  x++ = %d  (x becomes %d after)\n", x, x++, x);
+    x = 10;
+    printf("  x=%d, ++x  = %d  (x is already %d)\n",  x, ++x, x);
  
