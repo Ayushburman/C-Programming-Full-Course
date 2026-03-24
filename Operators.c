@@ -72,3 +72,11 @@ int main(void) {
     int age = 20;
     const char *status = (age >= 18) ? "adult" : "minor";
     printf("  age=%d → \"%s\"\n", age, status);
+
+ /* ── sizeof ─────────────────────────────────────────── */
+    printf("\n=== sizeof ===\n");
+    printf("  sizeof(int)    = %zu bytes\n", sizeof(int));
+    printf("  sizeof(double) = %zu bytes\n", sizeof(double));
+    int arr[10];
+    printf("  int arr[10]: sizeof(arr)/sizeof(arr[0]) = %zu elements\n",
+           sizeof(arr) / sizeof(arr[0]));
