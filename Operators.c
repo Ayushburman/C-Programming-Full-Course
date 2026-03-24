@@ -46,4 +46,13 @@ int main(void) {
     printf("  !%d       →  %d\n", p,    !p);
     printf("  short-circuit: 0 && (1/0) never evaluates division → safe\n");
 
-
+  /* ── Bitwise ────────────────────────────────────────── */
+    printf("\n=== Bitwise (a=%d=0b%04d, b=%d=0b%04d) ===\n",
+           a, 1100, b, 0101);           /* hand-written binary for display */
+    printf("  a & b  = %d   (AND)\n",  a &  b);
+    printf("  a | b  = %d  (OR)\n",   a |  b);
+    printf("  a ^ b  = %d   (XOR)\n", a ^  b);
+    printf("  ~a     = %d  (NOT, two's complement)\n", ~a);
+    printf("  a << 1 = %d  (left  shift = a×2)\n",  a << 1);
+    printf("  a >> 1 = %d   (right shift = a÷2)\n", a >> 1);
+ 
