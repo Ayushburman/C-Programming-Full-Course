@@ -28,3 +28,12 @@ int main(void) {
     x = 10;
     printf("  x=%d, ++x  = %d  (x is already %d)\n",  x, ++x, x);
  
+
+/* ── Relational ─────────────────────────────────────── */
+    printf("\n=== Relational (1=true, 0=false) ===\n");
+    printf("  %d == %d  →  %d\n", a, b, a == b);
+    printf("  %d != %d  →  %d\n", a, b, a != b);
+    printf("  %d >  %d  →  %d\n", a, b, a >  b);
+    printf("  %d <  %d  →  %d\n", a, b, a <  b);
+    printf("  %d >= %d  →  %d\n", a, b, a >= b);
+    printf("  %d <= %d  →  %d\n", a, b, a <= b);
