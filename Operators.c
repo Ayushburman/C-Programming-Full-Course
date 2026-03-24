@@ -7,3 +7,9 @@
  * Run     : ./operators
  */
 
+#include <stdio.h>
+ 
+int main(void) {
+ 
+    int a = 12, b = 5;
+
