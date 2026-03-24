@@ -75,3 +75,10 @@ int main(void) {
     printf("  7 / 2 (int div)   = %.1f\n", result_bad);
     printf("  (float)7 / 2      = %.1f\n", result_good);
  
+   /* implicit narrowing — loss of data demo */
+    double big = 9.99;
+    int    truncated = (int)big;  /* fractional part dropped */
+    printf("  (int)9.99         = %d  (truncated, not rounded)\n", truncated);
+ 
+    return 0;
+}
