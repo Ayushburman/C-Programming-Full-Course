@@ -7,3 +7,8 @@
  * Run     : ./data_types
  */
 
+#include <stdio.h>
+#include <limits.h>   /* INT_MAX, CHAR_MIN … */
+#include <float.h>    /* FLT_MAX, DBL_MAX  … */
+#include <stdbool.h>  /* bool, true, false   */
+
