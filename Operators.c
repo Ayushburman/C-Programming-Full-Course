@@ -66,3 +66,9 @@ int main(void) {
     n /= 4;  printf("  n /= 4  → %d\n", n);
     n %= 3;  printf("  n %%= 3  → %d\n", n);
     n <<= 1; printf("  n <<= 1 → %d\n", n);
+
+/* ── Ternary ────────────────────────────────────────── */
+    printf("\n=== Ternary (condition ? true : false) ===\n");
+    int age = 20;
+    const char *status = (age >= 18) ? "adult" : "minor";
+    printf("  age=%d → \"%s\"\n", age, status);
