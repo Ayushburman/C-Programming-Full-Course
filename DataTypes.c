@@ -52,3 +52,17 @@ int main(void) {
     printf("  UINT_MAX = %u\n",  UINT_MAX);
     printf("  FLT_MAX  = %e\n",  FLT_MAX);
     printf("  DBL_MAX  = %e\n",  DBL_MAX);
+
+
+  /* ── Print values ────────────────────────────────────── */
+    printf("\n=== variable values ===\n");
+    printf("  char   c  = %c  (ASCII %d)\n", c,  c);
+    printf("  short  s  = %d\n",  s);
+    printf("  int    i  = %d\n",  i);
+    printf("  long   l  = %ld\n", l);
+    printf("  ll        = %lld\n", ll);
+    printf("  uint   ui = %u\n",  ui);
+    printf("  uchar  uc = %u\n",  uc);
+    printf("  float  f  = %.6f\n", f);
+    printf("  double d  = %.15f\n", d);
+    printf("  bool flag = %s\n",  flag ? "true" : "false");
