@@ -51,3 +51,14 @@ int main(void) {
             default: printf("Unknown\n");
         }
     }
+
+  /* ── switch fall-through demo ───────────────────────── */
+    printf("\n=== fall-through demo ===\n");
+    int level = 2;
+    printf("  level=%d unlocks: ", level);
+    switch (level) {          /* no break → intentional cascade */
+        case 3: printf("feature-C  ");
+        case 2: printf("feature-B  ");
+        case 1: printf("feature-A  ");
+        default: printf("(base)\n");
+    }
