@@ -63,4 +63,10 @@ int main(void) {
     printf("  gpa  = %.2f\n", gpa);
 
 
- 
+ /* ── sprintf — build a string in memory ─────────────── */
+    printf("\n=== sprintf ===\n");
+    char buffer[64];
+    sprintf(buffer, "Student: %s | Age: %d | GPA: %.2f", name, age, gpa);
+    printf("  Result string: \"%s\"\n", buffer);
+
+
