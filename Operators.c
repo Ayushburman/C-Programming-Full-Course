@@ -56,3 +56,13 @@ int main(void) {
     printf("  a << 1 = %d  (left  shift = a×2)\n",  a << 1);
     printf("  a >> 1 = %d   (right shift = a÷2)\n", a >> 1);
  
+  /* ── Assignment shorthand ───────────────────────────── */
+    printf("\n=== Assignment shorthand ===\n");
+    int n = 20;
+    printf("  n = 20\n");
+    n += 5;  printf("  n += 5  → %d\n", n);
+    n -= 3;  printf("  n -= 3  → %d\n", n);
+    n *= 2;  printf("  n *= 2  → %d\n", n);
+    n /= 4;  printf("  n /= 4  → %d\n", n);
+    n %= 3;  printf("  n %%= 3  → %d\n", n);
+    n <<= 1; printf("  n <<= 1 → %d\n", n);
