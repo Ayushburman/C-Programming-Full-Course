@@ -104,3 +104,26 @@ int main(void) {
 
     return 0;
 }
+
+
+/*
+ * 06 — String Copy
+ */
+#include <stdio.h>
+
+int main(void) {
+
+    char src[] = "Ayush";
+    char dest[20];
+
+    int i = 0;
+    while (src[i] != '\0') {
+        dest[i] = src[i];
+        i++;
+    }
+    dest[i] = '\0';
+
+    printf("Copied string: %s\n", dest);
+
+    return 0;
+}
