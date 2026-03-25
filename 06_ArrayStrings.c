@@ -127,3 +127,26 @@ int main(void) {
 
     return 0;
 }
+
+/*
+ * 07 — String Compare
+ */
+#include <stdio.h>
+#include <string.h>
+
+int main(void) {
+
+    char a[] = "apple";
+    char b[] = "banana";
+
+    int result = strcmp(a, b);
+
+    if (result == 0)
+        printf("Equal\n");
+    else if (result < 0)
+        printf("a < b\n");
+    else
+        printf("a > b\n");
+
+    return 0;
+}
