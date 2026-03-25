@@ -174,3 +174,21 @@ int main(void) {
 
     return 0;
 }
+
+/*
+ * 09 — Reverse String
+ */
+#include <stdio.h>
+#include <string.h>
+
+int main(void) {
+
+    char str[] = "hello";
+    int len = strlen(str);
+
+    for (int i = len - 1; i >= 0; i--) {
+        printf("%c", str[i]);
+    }
+
+    return 0;
+}
