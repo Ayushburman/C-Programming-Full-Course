@@ -42,3 +42,22 @@ int main(void) {
 
     return 0;
 }
+
+/*
+ * 03 — Reverse Array
+ */
+#include <stdio.h>
+
+int main(void) {
+
+    int arr[] = {1, 2, 3, 4, 5};
+    int size = 5;
+
+    printf("Reversed array:\n");
+
+    for (int i = size - 1; i >= 0; i--) {
+        printf("%d ", arr[i]);
+    }
+
+    return 0;
+}
