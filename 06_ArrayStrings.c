@@ -85,3 +85,22 @@ int main(void) {
 
     return 0;
 }
+
+/*
+ * 05 — String Length (Manual)
+ */
+#include <stdio.h>
+
+int main(void) {
+
+    char str[] = "hello";
+    int length = 0;
+
+    while (str[length] != '\0') {
+        length++;
+    }
+
+    printf("Length = %d\n", length);
+
+    return 0;
+}
