@@ -150,3 +150,27 @@ int main(void) {
 
     return 0;
 }
+
+
+/*
+ * 08 — Count Vowels
+ */
+#include <stdio.h>
+
+int main(void) {
+
+    char str[] = "hello world";
+    int count = 0;
+
+    for (int i = 0; str[i]; i++) {
+        char ch = str[i];
+        if (ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'||
+            ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U') {
+            count++;
+        }
+    }
+
+    printf("Vowels = %d\n", count);
+
+    return 0;
+}
