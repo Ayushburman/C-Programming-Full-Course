@@ -15,3 +15,5 @@ int main()
 {
    // Inside this block {} is the body of the program
 Printf("I-I E I I O - I'M AYUSH BURMAN\n");
+// printf() is used to print output to the screen
+    // \n is an escape sequence that moves cursor to next line
