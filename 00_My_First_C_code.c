@@ -13,3 +13,5 @@ int main()
 // 'int' means this function will return an integer to the OS
 
 {
+   // Inside this block {} is the body of the program
+Printf("I-I E I I O - I'M AYUSH BURMAN\n");
