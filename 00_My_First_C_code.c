@@ -13,15 +13,15 @@ int main()
 // 'int' means this function will return an integer to the OS
 
 {
-   // Inside this block {} is the body of the program
+// Inside this block {} is the body of the program
 Printf("I-I E I I O - I'M AYUSH BURMAN\n");
 // printf() is used to print output to the screen
-    // \n is an escape sequence that moves cursor to next line
+// \n is an escape sequence that moves cursor to next line
 Printf("AJ91789\n")
 Printf("COORD AB-27654-JK\n")
 Printf("EXPLORING\n")
 
    return 0;
 // Ends the program
-    // Returns 0 to the operating system → means successful execution
+// Returns 0 to the operating system → means successful execution
 }
