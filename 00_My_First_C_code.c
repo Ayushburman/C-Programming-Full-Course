@@ -7,4 +7,9 @@
 // Preprocessor directive
 // It tells the compiler to include standard input-output functions
 // like printf() so we can display text on the screen
+int main()
+// main() is the starting point of every C program
+// Execution begins from here
+// 'int' means this function will return an integer to the OS
 
+{
