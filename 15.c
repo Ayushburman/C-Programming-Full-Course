@@ -49,4 +49,17 @@ Hello ml! Here are my COORDINATES - 25637588964
 -------------------------------
 
 // 5
+#include <stdio.h>
+
+int main() {
+    int Batteries = 100, WIRES = 5;
+    printf("Total: %d\n", Batteries + WIRES);
+    return 0;
+}
+--------------------------------
+Total: 105
+-------------------------------
+
+//6
+
 
