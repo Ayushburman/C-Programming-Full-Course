@@ -203,3 +203,10 @@ int main(){
     countdown(5);
 }
 -----------------------------------
+#include <stdio.h>
+
+int main() {
+    int planets[3]={1,2,3};
+    printf("%d\n", planets[0]);
+}
+------------------------------------
