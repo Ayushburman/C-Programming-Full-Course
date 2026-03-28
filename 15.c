@@ -30,7 +30,7 @@ int main() {
     return 0;
 }
 --------------------------------
-Gravity: 100.8
+// OUTPUT - Gravity: 100.8
 -------------------------------
 
 // 4 
@@ -44,8 +44,8 @@ int main() {
     return 0;
 }
 --------------------------------
-Enter your name: ml
-Hello ml! Here are my COORDINATES - 25637588964
+// OUTPUT - Enter your name: ml
+// Hello ml! Here are my COORDINATES - 25637588964
 -------------------------------
 
 // 5
@@ -57,9 +57,20 @@ int main() {
     return 0;
 }
 --------------------------------
-Total: 105
+// OUTPUT Total: 105
 -------------------------------
 
 //6
+#include <stdio.h>
+
+int main() {
+    int Planet_temp = 50;
+    if(Planet_temp > 30)
+        printf("Hot planet\n");
+    return 0;
+}
+-------------------------------
+// OUTPUT Hot planet
+------------------------------
 
 
