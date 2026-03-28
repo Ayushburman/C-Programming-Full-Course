@@ -86,4 +86,9 @@ int main() {
 -------------------------------
 // OUTPUT - Moon exists
 ------------------------------
+#include <stdio.h>
 
+int main() {
+    int Planet_size = 3;
+    if(Planet_size == 1)
+        printf("Small planet\n");
