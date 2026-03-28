@@ -119,3 +119,7 @@ int main() {
     int planet = 3;
     switch(planet) {
         case 1: printf("Mercury\n"); break;
+        case 2: printf("Venus\n"); break;
+        default: printf("Unknown\n");
+    }
+}
