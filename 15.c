@@ -21,5 +21,13 @@ int main() {
 // OUTPUT - 5972-12563-145263
 ---------------------------------
 
-//
-    
+// 3 
+#include <stdio.h>
+#define GRAVITY 100.8
+
+int main() {
+    printf("Gravity: %.1f\n", GRAVITY);
+    return 0;
+}
+--------------------------------
+Gravity: 100.8
