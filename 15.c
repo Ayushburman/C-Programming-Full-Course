@@ -171,3 +171,14 @@ int main() {
     }
 }
 -----------------------------------
+#include <stdio.h>
+
+void launch() {
+    printf("Rocket Launched!\n");
+}
+
+int main() {
+    launch();
+}
+----------------------------------
+    
