@@ -72,5 +72,18 @@ int main() {
 -------------------------------
 // OUTPUT Hot planet
 ------------------------------
+//7
+#include <stdio.h>
 
+int main() {
+    int moon = 4;
+    if(moon)
+        printf("Moon exists\n");
+    else
+        printf("No moon\n");
+    return 0;
+}
+-------------------------------
+// OUTPUT - Moon exists
+------------------------------
 
