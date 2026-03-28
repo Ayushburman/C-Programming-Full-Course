@@ -34,4 +34,19 @@ Gravity: 100.8
 -------------------------------
 
 // 4 
-    
+#include <stdio.h>
+
+int main() {
+    char name[20];
+    printf("Enter your name: ");
+    scanf("%s", name);
+    printf("Hello %s! Here are my COORDINATES - 25637588964\n", name);
+    return 0;
+}
+--------------------------------
+Enter your name: ml
+Hello ml! Here are my COORDINATES - 25637588964
+-------------------------------
+
+// 5
+
