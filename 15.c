@@ -86,6 +86,7 @@ int main() {
 -------------------------------
 // OUTPUT - Moon exists
 ------------------------------
+//8
 #include <stdio.h>
 
 int main() {
@@ -101,4 +102,15 @@ int main() {
 // OUTPUT - Large planet
 ---------------------------------
 
+//9
+#include <stdio.h>
+
+int main() {
+    int planet = 2;
+    switch(planet) {
+        case 1: printf("Mercury\n"); break;
+        case 2: printf("Venus\n"); break;
+        default: printf("Unknown\n");
+    }
+}
 
