@@ -1,5 +1,6 @@
-# inlculde <stdio.h>
-int main (){
-  printf(" IM A EXPLORER ")
-return 0;
+#include <stdio.h>
+
+int main() {
+    printf("Hello, Universe!\n");
+    return 0;
 }
