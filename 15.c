@@ -181,4 +181,13 @@ int main() {
     launch();
 }
 ----------------------------------
-    
+#include <stdio.h>
+
+int fuel(int x) {
+    return x*2;
+}
+
+int main() {
+    printf("%d\n", fuel(5));
+}
+-----------------------------------
