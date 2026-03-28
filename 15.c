@@ -1,5 +1,5 @@
 # inlculde <stdio.h>
-int main {
+int main (){
   printf(" IM A EXPLORER ")
 return 0;
 }
