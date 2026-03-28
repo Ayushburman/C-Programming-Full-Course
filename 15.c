@@ -133,3 +133,14 @@ Count 6024
 Count 6030
 */
 -------------------------------
+
+    #include <stdio.h>
+
+int main() {
+    int i=1;
+    while(i<=3){
+        printf("Galaxy %d\n", i);
+        i++;
+    }
+--------------------------------
+    
