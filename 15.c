@@ -92,8 +92,9 @@ int main() {
     int Planet_size = 3;
     if(Planet_size == 1)
         printf("Small planet\n");
-else if(Planet_size == 2)
+    else if(Planet_size == 2)
         printf("Medium planet\n");
     else
         printf("Large planet\n");
 }
+----------------------------------
