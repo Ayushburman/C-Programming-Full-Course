@@ -144,9 +144,10 @@ int main() {
     }
 }
 --------------------------------
-Fuel Capacity  1
-Fuel Capacity  2
-Fuel Capacity  3
+/*Fuel Capacity  1
+ Fuel Capacity  2
+ Fuel Capacity  3
+*/
 --------------------------------
 #include <stdio.h>
 
@@ -157,6 +158,11 @@ int main() {
         i++;
     } while(i<=3);
 }
+-----------------------------------
+/*Orbit 1
+ Orbit 2
+ Orbit 3
+*/
 -----------------------------------
 #include <stdio.h>
 
