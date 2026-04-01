@@ -142,6 +142,11 @@ int main() {
         printf("Galaxy %d\n", i);
         i++;
     }
+}
+--------------------------------
+Fuel Capacity  1
+Fuel Capacity  2
+Fuel Capacity  3
 --------------------------------
 #include <stdio.h>
 
