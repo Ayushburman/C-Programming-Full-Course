@@ -112,3 +112,8 @@ int main() {
     char *str = "Hello";
     printf("%c", *(str + 1));
 }
+#include <stdio.h>
+int main() {
+    char *str = "Hello";
+    printf("%c", *(str + 1));
+}
