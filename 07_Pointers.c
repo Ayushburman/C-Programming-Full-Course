@@ -150,3 +150,13 @@ int main() {
     int (*f)(int, int) = add;
     printf("%d", f(2, 3));
 }
+
+#include <stdio.h>
+struct A {
+    int x;
+};
+int main() {
+    struct A a = {10};
+    struct A *p = &a;
+    printf("%d", p->x);
+}
