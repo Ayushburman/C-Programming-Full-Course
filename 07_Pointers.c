@@ -141,3 +141,12 @@ int main() {
     void *p = &a;
     printf("%d", *(int*)p);
 }
+
+#include <stdio.h>
+int add(int a, int b) {
+    return a + b;
+}
+int main() {
+    int (*f)(int, int) = add;
+    printf("%d", f(2, 3));
+}
