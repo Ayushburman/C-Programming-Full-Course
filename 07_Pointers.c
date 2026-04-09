@@ -19,3 +19,11 @@ int main() {
     *p = 20;
     printf("%d", a);
 }
+
+#include <stdio.h>
+int main() {
+    int a = 10, b = 20;
+    int *p = &a;
+    p++;
+    printf("%d", *p);
+}
