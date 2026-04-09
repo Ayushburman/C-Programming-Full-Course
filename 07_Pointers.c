@@ -58,3 +58,15 @@ int main() {
     int **q = &p;
     printf("%d", **q);
 }
+
+#include <stdio.h>
+void swap(int *x, int *y) {
+    int temp = *x;
+    *x = *y;
+    *y = temp;
+}
+int main() {
+    int a = 3, b = 4;
+    swap(&a, &b);
+    printf("%d %d", a, b);
+}
