@@ -127,3 +127,10 @@ int main() {
     char *str = "Hello";
     printf("%c", *(str + 1));
 }
+
+#include <stdio.h>
+int main() {
+    int a = 10;
+    void *p = &a;
+    printf("%d", *(int*)p);
+}
