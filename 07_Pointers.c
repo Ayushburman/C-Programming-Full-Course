@@ -157,9 +157,9 @@ struct A {
     int x;
 
 };
-int main() {
-    struct A a = {10};
-    struct A *p = &a;
-    printf("%d", p->x);
-}
 
+#include <stdio.h>
+int main() {
+    int a = 5;
+    int *p = &a;
+    printf("%p", p);
