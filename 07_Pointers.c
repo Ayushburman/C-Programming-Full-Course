@@ -160,3 +160,4 @@ int main() {
     struct A *p = &a;
     printf("%d", p->x);
 }
+
