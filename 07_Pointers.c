@@ -151,6 +151,9 @@ int main() {
     printf("%d", f(2, 3));
 }
 
+#include <stdio.h>
+struct A {
+    int x;
 
 };
 int main() {
