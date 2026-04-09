@@ -70,3 +70,13 @@ int main() {
     swap(&a, &b);
     printf("%d %d", a, b);
 }
+
+#include <stdio.h>
+int* fun() {
+    static int x = 10;
+    return &x;
+}
+int main() {
+    int *p = fun();
+    printf("%d", *p);
+}
