@@ -87,3 +87,12 @@ int main() {
     int (*p)[3] = &arr;
     printf("%d", (*p)[1]);
 }
+
+#include <stdio.h>
+#include <stdlib.h>
+int main() {
+    int *p = (int*)malloc(sizeof(int));
+    *p = 50;
+    printf("%d", *p);
+    free(p);
+}
