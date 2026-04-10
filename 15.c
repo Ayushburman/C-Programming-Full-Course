@@ -317,8 +317,4 @@ int main(){
     char name[20];
     scanf("%s", name[20];
     scanf("%s", name);
-    printf("%s\n", 
-    name);name[20];
-    scanf("%s", name);
-    printf("%s\n
-    printf("%s\
+    printf("%s\nkl
