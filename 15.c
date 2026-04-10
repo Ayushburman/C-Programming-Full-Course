@@ -203,11 +203,7 @@ int main() {
     printf("%d\n", fuel(5));
 }
 -----------------------------------
-#include <stdio.h>
-
-void countdown(int n){
-    if(n==0) return;
-    printf("%d\n", n);
+#include <stdio.);
     countdown(n-1);
 }
 
