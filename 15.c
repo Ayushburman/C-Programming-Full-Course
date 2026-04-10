@@ -289,10 +289,7 @@ int main(){
 int main(){
     char name[20];
     scanf("%s", name);
-    printf("%s\n", name);
-}
--------------------------------
-----------------------------------
+    printf("%s\n", name
 #include <stdio.h>
 
 int main(){
