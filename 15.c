@@ -321,6 +321,4 @@ int main(){
     name);name[20];
     scanf("%s", name);
     printf("%s\n
-    printf("%s\n", 
-        name[20];
-    scanf("%s", name);
+    printf("%s\
