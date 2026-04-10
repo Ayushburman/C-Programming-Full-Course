@@ -18,7 +18,8 @@ int main() {
 }
 
 ---------------------------------
-// OUTPUT - 5972-12563-145263
+// OUTPUT -
+    5972-12563-145263
 ---------------------------------
 
 // 3 
@@ -321,5 +322,11 @@ int main(){
     scanf("%s", name[20];
     scanf("%s", name);
     printf("%s\n", 
-    name);
+    name);name[20];
+    scanf("%s", name);
+    printf("%s\n
     printf("%s\n", 
+        name[20];
+    scanf("%s", name);
+    printf("%s\n", 
+ nn
