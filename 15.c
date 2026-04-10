@@ -16,12 +16,12 @@ int main() {
     printf("planet_COORD: %d\n", planet_COORD);
     return 0;
 }
-
+m
 ---------------------------------
 // OUTPUT -
     5972-12563-145263
 ---------------------------------
-
+rd 
 // 3 
 #include <stdio.h>
 #define GRAVITY 100.8
@@ -328,5 +328,3 @@ int main(){
     printf("%s\n", 
         name[20];
     scanf("%s", name);
-    printf("%s\n", 
- nn
