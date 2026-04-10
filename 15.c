@@ -244,6 +244,4 @@ int main(){
     scanf("%s", name);
     printf("%s\n", name);
 }
----------------------------------
-    Aysh
-Welcome Onboard!Aysh
+-------------------------------
