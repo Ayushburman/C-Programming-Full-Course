@@ -1,4 +1,4 @@
-// 1
+h// 1
 #include <stdio.h>
 
 int main() {
