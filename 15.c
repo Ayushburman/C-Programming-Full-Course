@@ -306,5 +306,4 @@ int main(){
     scanf("%s", name);
     printf("%s\n", name);
 }
----------------
-in kn
+--------------
